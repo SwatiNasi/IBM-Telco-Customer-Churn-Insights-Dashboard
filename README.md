@@ -1,4 +1,4 @@
-IBM Telco Customer Churn Insights Dashboard 
+IBM Telco Customer Churn Insights Dashboard
 
 ## Overview :
 
@@ -114,5 +114,3 @@ The analysis shows that churn is primarily influenced by **contract type, pricin
 
 Swati Nasi
 Aspiring Data Analyst | Reporting Analyst
-
-
