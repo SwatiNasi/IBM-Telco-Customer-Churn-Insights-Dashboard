@@ -1,116 +1,87 @@
-IBM Telco Customer Churn Insights Dashboard
+# 📊 IBM Telco Customer Churn Insights Dashboard
 
-## Overview :
-
-This project presents an interactive Customer Churn Analysis Dashboard built using the IBM Telco dataset. The dashboard provides insights into customer behavior and highlights key factors influencing churn such as contract type, internet service, tenure, and monthly charges.
-
----
-
-## Objective :
-
-* Analyze customer churn trends
-* Identify high-risk customer segments
-* Understand the impact of pricing, contracts, and tenure on churn
-* Enable interactive, data-driven decision-making
+## 📌 Overview  
+This project presents an interactive **Customer Churn Analysis Dashboard** built using the **IBM Telco Customer Churn dataset**. It provides insights into customer behavior and highlights key factors influencing churn such as contract type, internet service, tenure, and monthly charges.
 
 ---
 
-## Tools & Technologies :
-
-* SQL – Data extraction, cleaning, and transformation
-* Power BI – Data visualization and dashboard development
-
----
-
-## Dataset :
-
-The dataset used in this project is the IBM Telco Customer Churn dataset from Kaggle.
-
-Source: Kaggle - IBM Telco Customer Churn Dataset
+## 🎯 Objectives  
+- Analyze **customer churn trends**  
+- Identify **high-risk customer segments**  
+- Understand the impact of **pricing, contracts, and tenure** on churn  
+- Enable **interactive, data-driven decision-making**  
 
 ---
 
-
-## Key Metrics :
-
-* Total Customers: 7032
-* Churned Customers: 1869
-* Churn Rate: 26.58%
-* Average Monthly Charges: 64.80
-* Average Tenure: 32.42 months
+## 🛠️ Tools & Technologies  
+- **Power BI Desktop** – Data visualization and dashboard development  
+- **SQL** – Data cleaning and transformation  
 
 ---
 
-## Dashboard Features :
-
-###  Churn by Contract
-
-* Month-to-month
-* One-year
-* Two-year
-  Insight: Month-to-month customers have the highest churn rate.
+## 📂 Dataset  
+- **Source:** Kaggle – IBM Telco Customer Churn Dataset  
+- Contains customer demographics, services, billing, and churn status  
 
 ---
 
-### Churn by Internet Service
-
-* Fiber optic
-* DSL
-* No internet service
-  Insight: Fiber optic users show higher churn compared to others.
-
----
-
-### Monthly Charges vs Churn
-
-* Analyzes how churn varies across different charge ranges
-  Insight: Higher monthly charges are associated with increased churn.
+## 📊 Key Metrics  
+- **Total Customers:** 7032  
+- **Churned Customers:** 1869  
+- **Churn Rate:** 26.58%  
+- **Avg Monthly Charges:** 64.80  
+- **Avg Tenure:** 32.42 months  
 
 ---
 
-### Tenure Group vs Churn
+## 📈 Dashboard Features  
 
-* New
-* Medium
-* Old
-  Insight: New customers churn more, while long-tenure customers are more stable.
+### 🔹 Churn by Contract  
+- Month-to-month  
+- One-year  
+- Two-year  
+📌 *Insight:* Month-to-month customers have the highest churn  
 
----
+### 🔹 Churn by Internet Service  
+- Fiber optic  
+- DSL  
+- No internet  
+📌 *Insight:* Fiber optic users show higher churn  
 
-### Interactive Filters
+### 🔹 Monthly Charges vs Churn  
+📌 *Insight:* Higher charges are associated with increased churn  
 
-* Gender
-* Contract type
-* Internet service
-* Tenure group
+### 🔹 Tenure Group vs Churn  
+- New  
+- Medium  
+- Old  
+📌 *Insight:* New customers churn more, long-term customers are stable  
 
----
-
-## Key Insights :
-
-* Month-to-month contracts have the highest churn
-* Higher monthly charges lead to higher churn probability
-* New customers are more likely to leave
-* Fiber optic service users show increased churn
-
----
-
-## Conclusion :
-
-The analysis shows that churn is primarily influenced by **contract type, pricing, service type, and tenure**. Businesses can improve retention by focusing on long-term contracts, optimizing pricing strategies, and enhancing early customer experience.
+### 🔹 Interactive Filters  
+- Gender  
+- Contract Type  
+- Internet Service  
+- Tenure Group  
 
 ---
 
-## Future Enhancements :
-
-* Implement churn prediction using machine learning
-* Add customer segmentation analysis
-* Enhance dashboard with advanced DAX calculations
-* Include forecasting and trend analysis
+## 💡 Key Insights  
+- Month-to-month contracts have the highest churn  
+- Higher monthly charges increase churn probability  
+- New customers are more likely to leave  
+- Fiber optic users show higher churn  
 
 ---
 
-## Author :
+## 📌 Conclusion  
+Churn is primarily influenced by **contract type, pricing, service type, and tenure**. Businesses can improve retention by promoting long-term contracts, optimizing pricing, and improving early customer experience.
 
-Swati Nasi
-Aspiring Data Analyst | Reporting Analyst
+---
+
+## 🚀 Future Enhancements  
+- Implement **churn prediction (Machine Learning)**  
+- Add **customer segmentation analysis**  
+- Enhance dashboard using **advanced DAX**  
+- Include **forecasting and trend analysis**  
+
+
