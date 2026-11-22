@@ -116,4 +116,18 @@ These filters help explore different customer segments and demographic patterns.
 
 The project helped identify customer groups with higher churn rates and understand churn patterns across contracts, customer demographics, services and billing.
 
+## 📸 POWER BI DASHBOARD SCREENSHOTS
+
+### 1. CUSTOMER CHURN OVERVIEW
+<img width="634" height="367" alt="Customer Churn Overview" src="https://github.com/user-attachments/assets/497a7926-8c0f-4eb6-90e8-9a6bc55ef3a0" />
+ />
+### 2. CONTRACT AND CUSTOMER SEGMENTATION ANALYSIS
+<img width="634" height="365" alt="Contract and Customer Segmentation Analysis" src="https://github.com/user-attachments/assets/3d19ceec-4bae-4a24-baa5-da5c626f565b" />
+### 3. HIGH-RISK CUSTOMER SEGMENTATION USING COMBINED FACTORS
+<img width="635" height="367" alt="High Risk Customer Segmentation using combined factors" src="https://github.com/user-attachments/assets/6866cfe9-0de8-4f79-be32-8ce17d86b732" />
+### 4. CUSTOMER DEMOGRAPHICS ANALYSIS
+<img width="638" height="365" alt="Customer Demographics Analysis" src="https://github.com/user-attachments/assets/03c7bbd0-5811-4b86-8032-60b3829ec626" />
+### 5. CUSTOMER SERVICES AND BILLING ANALYSIS
+<img width="634" height="369" alt="Customer Services and Billing Analysis" src="https://github.com/user-attachments/assets/cfd2cf1b-2efe-45bf-ad76-6a9f4e895495" />
+
 
