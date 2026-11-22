@@ -1,115 +1,119 @@
-# 📊 IBM Telco Customer Churn Insights Dashboard
 
-## 📌 Overview
+📊 IBM Telco Customer Churn Insights Dashboard
 
-This project presents an interactive Customer Churn Analysis Dashboard built using SQL and Power BI with the IBM Telco Customer Churn dataset. It analyzes customer behavior to identify churn patterns across contract types, internet services, tenure, monthly charges.
+📌 Overview
 
-The dashboard helps understand which customer segments have higher churn rates and supports data-driven customer retention decisions.
+This project analyses customer churn using SQL and Power BI with the IBM Telco Customer Churn dataset.
 
-## 🎯 Objectives
+The project focuses on understanding customer churn patterns, analysing different customer groups and identifying high-risk customer segments.
 
-- Analyze overall customer churn trends.
-- Identify customer segments with higher churn rates.
-- Examine churn patterns across contract types and internet services.
-- Analyze customer tenure and monthly charge patterns.
-- Explore differences between churned and retained customers.
-- Enable interactive analysis through Power BI filters.
+🎯 Objectives
 
-## 🛠️ Tools & Technologies
+- Analyse customer churn.
+- Understand customer churn patterns.
+- Analyse different customer segments and demographics.
+- Study churn across services and billing patterns.
+- Identify high-risk customer groups.
 
-- SQL (MySQL) – Data cleaning, transformation, and customer churn analysis.
-- Power BI Desktop – Data visualization and interactive dashboard development.
-- DAX – Creating measures for customer counts, churn rate, average monthly charges, and average tenure.
+🛠️ Tools & Technologies
 
-## 📂 Dataset
+- SQL (MySQL)
+- Power BI Desktop
+- DAX
+
+📂 Dataset
 
 - Source: Kaggle – IBM Telco Customer Churn Dataset.
-
-
-## 📊 Key Metrics
-
 - Total Customers: 7,032
-- Churned Customers:1,869
-- Churn Rate: 26.58%
-- Average Monthly Charges: 64.80
-- Average Tenure: 32.42 months
 
-## 📈 Dashboard Features
+📊 Key Metrics
 
-### 🔹 Customer Churn Overview
+| Metric | Value |
+|---|---:|
+| Total Customers | 7,032 |
+| Churned Customers | 1,869 |
+| Retained Customers | 5,163 |
+| Churn Rate | 26.58% |
 
-- Total customers and churned customers.
-- Overall churn rate.
-- Average monthly charges and average tenure.
-- Churn analysis across contract types, internet services, and payment methods.
+ 📈 Project Work
 
-### 🔹 Churn by Contract Type
+🔹 SQL Analysis
 
-- Month-to-Month
-- One Year
-- Two Year
+- Performed data cleaning and analysis using ALTER TABLE, UPDATE, GROUP BY and aggregate functions.
+- Used CTEs with GROUP BY and aggregate functions for high-risk customer and demographic analysis.
+- Used CTEs with UNION ALL for additional services and billing analysis.
 
-**Insight:** Month-to-Month contracts recorded the highest churn rate of 42.71%, with 1,655 churned customers out of 3,875.
+🔹 Power BI Dashboard
 
-### 🔹 Churn by Internet Service
+Created a five-page interactive dashboard using DAX.
 
-- Fiber Optic
-- DSL
-- No Internet Service
+ 1. Customer Churn Overview
 
-**Insight:** Fiber Optic customers had a churn rate of 41.89%, with 1,297 churned customers out of 3,096.
+- Analysed total customers, churned customers and retained customers.
+- Examined the overall customer churn rate.
 
-### 🔹 Customer Tenure Analysis
+ 2. Contract and Customer Segmentation Analysis
 
-- Analyze customer tenure distribution.
-- Identify churn patterns among customers with different lengths of service.
+- Analysed churn across contract types.
+- Compared internet services and payment methods.
+- Explored tenure groups and monthly charge ranges.
 
-**Insight:** Customers with 1–12 months of tenure had a churn rate of 47.68%, with 1,037 churned and 1,138 retained customers out of 2,175.
+ 3. High-Risk Customer Segments by Combined Factors
 
-### 🔹 Monthly Charges Analysis
+- Analysed multiple customer factors together to identify high-risk customer groups.
+- Examined contract type, internet service, payment method, tenure group and monthly charge range.
 
-- Analyze average monthly charges.
-- Examine monthly charge patterns among churned and retained customers.
+ 4. Customer Demographics Analysis
 
+- Analysed customer demographics using CTEs, GROUP BY and aggregate functions.
+- Used interactive Power BI filters to explore customer groups and demographic patterns.
 
+ 5. Customer Services and Billing Analysis
 
-### 🔹 Interactive Filters
-- Gender
-- Contract Type
+- Analysed churn across additional customer services and billing patterns.
+- Used SQL with CTEs and UNION ALL for the analysis.
+
+🔍 High-Risk Customer Insights
+
+The combined analysis identified a customer segment with a high churn rate.
+
+Customer Segment
+
+- Contract: Month-to-Month
+- Internet Service: Fiber Optic
+- Payment Method: Electronic Check
+- Tenure Group: 1 Year
+- Monthly Charge Range: 75 or above
+
+ Key Metrics
+
+| Metric | Value |
+|---|---:|
+| Total Customers | 445 |
+| Churned Customers | 323 |
+| Retained Customers | 122 |
+| Churn Rate | 72.58% |
+
+ Key Finding
+
+This customer segment had a churn rate of 72.58%, compared with the overall churn rate of 26.58%.
+
+The analysis helped identify a customer group with a much higher churn rate that may need more attention from the business.
+
+ 🎛️ Interactive Power BI Filters
+
+Added filters for:
+
+- Contract
 - Internet Service
-- Tenure_group
+- Payment Method
+- Monthly Charge Range
+- Tenure Group
 
-Power BI filters were also used to investigate churn among new customers (1–12 months), identifying churn rates of 51.35% for Month-to-Month contracts and 69.88% for Fiber Optic service.
+These filters help explore different customer segments and demographic patterns.
 
-## 💡 Key Insights
+📌 Conclusion
 
-- Month-to-Month contracts recorded the highest churn rate among contract types.
-- Fiber Optic customers showed a higher churn rate than the overall customer base.
-- Customers with 1–12 months of tenure had a higher churn rate than the overall customer base.
-- New customers using Month-to-Month contracts and Fiber Optic service showed particularly high churn rates in the filtered analysis.
+The project helped identify customer groups with higher churn rates and understand churn patterns across contracts, customer demographics, services and billing.
 
 
-## 📌 Conclusion
-
-The analysis highlights differences in customer churn across contract types, internet services, and tenure. The findings suggest that businesses should pay particular attention to early customer experience, review contract options, and investigate service-related customer concerns to improve retention.
-
-## 🚀 Future Enhancements
-
-- Develop a customer churn prediction model using Machine Learning.
-- Perform deeper customer segmentation analysis.
-- Explore additional factors influencing customer churn.
-
-## 📂 Project Files
-
-- SQL scripts – Data cleaning and analysis.
-- Power BI dashboard (.pbix) – Interactive dashboard.
-- Dataset – IBM Telco Customer Churn Dataset.
-- README.md – Project documentation.
-
-## 🧾 Usage
-
-1. Download or clone this repository.
-2. Import the cleaned dataset into MySQL or use the provided SQL scripts.
-3. Open the Power BI (.pbix) file using Power BI Desktop.
-4. Use the interactive filters to explore customer churn patterns.
-5. Navigate through the dashboard pages to understand the findings.
